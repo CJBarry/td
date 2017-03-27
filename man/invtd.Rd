@@ -22,4 +22,7 @@ invtd(td(28, 2, 1900))
 invtd(30000:30004)
 
 }
+\seealso{
+\code{\link{td}}
+}
 

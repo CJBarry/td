@@ -43,6 +43,7 @@ d400y <- 365*length(ly) + sum(ly)
 #' numeric []
 #'
 #' @export
+#' @seealso \code{\link{invtd}}
 #'
 #' @examples
 #' # day 0
@@ -103,6 +104,8 @@ find.ref.td <- function(x, gcs, rev = FALSE){
 #' character []
 #'
 #' @export
+#'
+#' @seealso \code{\link{td}}
 #'
 #' @examples
 #' invtd(td(28, 2, 1900))
